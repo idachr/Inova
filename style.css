@@ -1,6 +1,7 @@
 /*---------------------------------------------------------------- All Sites*/
 
 body{
+  background-color: white;
 
 }
 
@@ -208,6 +209,10 @@ width: auto;
 
 /*---------------------------------------------------------------- Media*/
 @media screen and (max-width: 780px) {
+
+  #Front {
+    grid-template-columns: 1fr;
+  }
 
   #NewsIndex {
     display: grid;
