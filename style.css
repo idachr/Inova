@@ -218,8 +218,8 @@ width: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  height: 40vh;
-  width: auto;
+  height: auto;
+  width: 35vw;
   border: solid 2px #3a3d3b;
 }
 
@@ -303,6 +303,26 @@ width: auto;
 /*---------------------------------------------------------------- Media*/
 @media screen and (max-width: 780px) {
 
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 1.75vw;
+  }
+
+  a {
+    font-size: 2vw;
+  }
+
   #Front {
     grid-template-columns: 1fr;
     margin: 5% 0;
@@ -341,16 +361,19 @@ width: auto;
     grid-column-start: 1;
     grid-column-end: 2;
     width: 90%;
+    height: 20vh;
   }
   #NewsIndex .NewsText2 {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 90%;
+    height: 20vh;
   }
   #NewsIndex .NewsText3 {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 90%;
+    height: 20vh;
   }
 
   #Regi {
@@ -362,6 +385,18 @@ width: auto;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+  }
+
+  .Emp {
+    grid-template-columns: 1fr;
+  }
+
+  .Emp .EmpPict img {
+    width: 25vw;
+  }
+
+  .EmpFact {
+    text-align: center;
   }
 
 
