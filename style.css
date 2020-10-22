@@ -21,6 +21,7 @@ h3 {
 }
 
 p {
+  font-family: 'Commissioner', sans-serif;
   font-size: 1.25vw;
 }
 
@@ -118,6 +119,10 @@ a {
 
 #FrontText #AllText h2 {
   margin-top: 0;
+}
+
+#AllText p {
+  padding-bottom: 2%;
 }
 
 #FrontText #AllText a {
