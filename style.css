@@ -1,5 +1,4 @@
 /*---------------------------------------------------------------- All Sites*/
-
 body{
   background-color: white;
 
@@ -76,7 +75,6 @@ a {
 }
 
 /*---------------------------------------------------------------- index*/
-
 #Front {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -187,8 +185,51 @@ width: auto;
 }
 
 /*---------------------------------------------------------------- Company*/
-/*---------------------------------------------------------------- Employees*/
+#CompanyHeader {
+  text-align: center;
+}
 
+#FrontImgCompany {
+  grid-column: 1fr;
+  max-width: 50vw;
+  height: auto;
+  background-image: url("Bilder/Himmel4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#FrontImgCompany img {
+  height: auto;
+  max-width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid 2px #3a3d3b;
+}
+
+#Front #FrontTextCompany {
+  max-width:50vw;
+  max-height: auto;
+  background-color: #f7fbfd;
+  text-align: center;
+  grid-column: 1fr;
+}
+
+#FrontTextCompany #AllText {
+  display: block;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+#FrontTextCompany #AllText h2 {
+  margin-top: 0;
+}
+
+/*---------------------------------------------------------------- Employees*/
 #Employees {
   margin: 0;
 }
@@ -231,7 +272,6 @@ width: auto;
 }
 
 /*---------------------------------------------------------------- Contact*/
-
 #ContactHeader {
   text-align: center;
 }
@@ -253,7 +293,8 @@ width: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  border: solid 2px #3a3d3b; }
+  border: solid 2px #3a3d3b;
+}
 
   #Front #FrontTextContact {
     max-width:50vw;
@@ -277,9 +318,7 @@ width: auto;
     text-align: center;
   }
 
-}
 /*---------------------------------------------------------------- Registration*/
-
 #Registring {
   margin: 0;
 }
@@ -351,7 +390,6 @@ width: auto;
   text-decoration: underline;
 }
 
-
 /*---------------------------------------------------------------- Media*/
 @media screen and (max-width: 767px) {
 
@@ -380,7 +418,6 @@ width: auto;
     margin: 5% 0;
   }
 
-
   #FrontText{
     display:block;
     margin-left: auto;
@@ -392,20 +429,21 @@ width: auto;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
+  }
 
-#FrontTextContact{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-#FrontImgContact{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
+  #FrontTextContact{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #FrontImgContact{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
   #AllText {
     display: block;
@@ -422,18 +460,21 @@ width: auto;
   #NewsIndex h1 {
     grid-column: 1fr;
   }
+
   #NewsIndex .NewsText1 {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 90%;
     height: 20vh;
   }
+
   #NewsIndex .NewsText2 {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 90%;
     height: 20vh;
   }
+
   #NewsIndex .NewsText3 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -449,7 +490,6 @@ width: auto;
     height: 25vh;
   }
 
-
   .Emp {
     grid-template-columns: 1fr;
   }
@@ -461,6 +501,4 @@ width: auto;
   .EmpFact {
     text-align: center;
   }
-
-
 }
