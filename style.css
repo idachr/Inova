@@ -280,7 +280,66 @@ width: auto;
 }
 /*---------------------------------------------------------------- Registration*/
 
+#Registring {
+  margin: 0;
+}
 
+#Registring h1 {
+  text-align: center;
+}
+
+.RegisteringsInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  margin:0px 2.5%;
+  text-align: center;
+}
+
+.RegisteringsInfoPM {
+  grid-column: 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RegistringsInfoKR {
+  grid-column: 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RegiOverskrifter {
+  grid-column: 1fr;
+}
+
+.Regi {
+  grid-column: 1fr;
+  width: 90%;
+  height: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Regi div:not(.RegiOverskrifter) {
+  background-color:#aabfaf;
+  padding: 2%;
+  margin: 2%;
+}
+
+.Regi div div {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 35vh;
+}
+
+#Registrering p {
+  text-align: center;
+}
 
 .mail {
   color: #3a3d3b;
@@ -294,7 +353,7 @@ width: auto;
 
 
 /*---------------------------------------------------------------- Media*/
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 767px) {
 
   h1 {
     font-size: 4vw;
@@ -380,6 +439,14 @@ width: auto;
     grid-column-end: 2;
     width: 90%;
     height: 20vh;
+  }
+
+  .RegisteringsInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .Regi div div {
+    height: 25vh;
   }
 
 
