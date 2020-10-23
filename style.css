@@ -6,22 +6,22 @@ body{
 }
 
 h1 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel' ,Times, serif;
   font-size: 3vw;
 }
 
 h2 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', Times, serif;
   font-size: 2.5vw;
 }
 
 h3 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', Times, serif;
   font-size: 1.75vw;
 }
 
 p {
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Commissioner',Arial, sans-serif;
   font-size: 1.25vw;
 }
 
@@ -86,6 +86,7 @@ a {
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -182,6 +183,7 @@ width: auto;
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -255,6 +257,7 @@ width: auto;
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -300,6 +303,7 @@ width: auto;
 
 .EmpPict {
   grid-column: 1fr;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -332,6 +336,7 @@ width: auto;
   grid-column: 1fr;
   width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
