@@ -6,22 +6,22 @@ body{
 }
 
 h1 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel' ,Times, serif;
   font-size: 3vw;
 }
 
 h2 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', Times, serif;
   font-size: 2.5vw;
 }
 
 h3 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', Times, serif;
   font-size: 1.75vw;
 }
 
 p {
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Commissioner',Arial, sans-serif;
   font-size: 1.25vw;
 }
 
