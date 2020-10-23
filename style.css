@@ -156,7 +156,7 @@ text-align: center;
 background-color: #aabfaf;
 padding: 5%;
 height: 30vh;
-width: 40vw;
+width: 90%;
 }
 
 #NewsIndex .NewsText3 {
@@ -270,6 +270,14 @@ width: auto;
   border: solid 2px #3a3d3b;
 }
 
+#StortBilde img {
+  width: 70vw;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+
 
 
 /*---------------------------------------------------------------- Employees*/
@@ -321,11 +329,14 @@ width: auto;
 
 #FrontImgContact {
   grid-column: 1fr;
-  max-width: 50vw;
+  width: 50vw;
   height: auto;
   background-image: url("Bilder/Himmel4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #FrontImgContact img {
@@ -446,7 +457,7 @@ width: auto;
   }
 
   p {
-    font-size: 1.75vw;
+    font-size: 2vw;
   }
 
   a {
@@ -455,7 +466,13 @@ width: auto;
 
   #Front {
     grid-template-columns: 1fr;
-    margin: 5% 0;
+    margin: 5% 0 0 0;
+    width: 100%;
+
+  }
+
+  #Front2 {
+    grid-template-columns: 1fr;
   }
 
   #FrontText{
@@ -471,14 +488,29 @@ width: auto;
     width: 100%;
   }
 
-  #FrontTextContact{
+  #FrontImgContact {
     display:block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
 
-  #FrontImgContact{
+  #FrontImgCompany, #FrontImgCompany2 {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90vw;
+  }
+
+  #FrontTextCompany, #FrontTextCompany2  {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+  #FrontTextContact{
     display:block;
     margin-left: auto;
     margin-right: auto;
