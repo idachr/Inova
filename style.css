@@ -85,6 +85,7 @@ a {
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -181,6 +182,7 @@ width: auto;
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -254,6 +256,7 @@ width: auto;
   grid-column: 1fr;
   max-width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -299,6 +302,7 @@ width: auto;
 
 .EmpPict {
   grid-column: 1fr;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -331,6 +335,7 @@ width: auto;
   grid-column: 1fr;
   width: 50vw;
   height: auto;
+  /*[Photograph]. (n.d.). https://wallpaperaccess.com/sky-hd*/
   background-image: url("Bilder/Himmel4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
